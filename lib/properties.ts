@@ -94,8 +94,44 @@ export const properties: Property[] = [
       "Vivienda con piscina privada situada en Fagajesto, Gáldar, sobre una parcela de aproximadamente 3.400 m². Dispone de tres dormitorios, cocina equipada, salón-comedor, jardín, zona de barbacoa y aparcamiento. Ideal como residencia o inversión vacacional.",
   },
 
-  {
+{
     id: 3,
+    reference: "AYB-005",
+
+    slug: "solar-angel-guimera",
+
+    title: "Solar en Ángel Guimerá",
+
+    city: "Las Palmas de Gran Canaria",
+
+    address: "Calle Ángel Guimerá",
+
+    type: "terreno",
+
+    operation: "sale",
+
+    featured: true,
+
+    status: "available",
+
+    price: 210000,
+    area: 150,
+
+    image: "/images/home5/home5-1.jpg",
+
+    images: [
+    "/images/home5/home5-1.jpg",
+    "/images/home5/home5-2.jpg",
+    "/images/home5/home5-3.jpg",
+    ],
+
+    description:
+  "Solar urbano de 150 m² situado en la calle Ángel Guimerá, una de las zonas con mayor proyección de Las Palmas de Gran Canaria. Ideal para construir una vivienda o desarrollar una promoción residencial en altura. Excelente conexión con el centro de la ciudad, León y Castillo, la zona Puerto y la Playa de Las Canteras. Una magnífica oportunidad para promotores e inversores.",
+  },
+
+
+  {
+    id: 4,
 
     reference: "AYB-004",
 
@@ -132,39 +168,5 @@ export const properties: Property[] = [
     description:
       "Edificio comercial en estructura situado en El Pagador, Moya. Consta de tres plantas de 253 m² cada una (759 m² construidos) sobre una parcela de 1.940 m². Excelente visibilidad en primera línea de la Carretera General de San Andrés y gran potencial para desarrollar un proyecto comercial o residencial, con vistas al mar y magnífica conexión con el norte de Gran Canaria.",
   },
-  {
-    id: 4,
-    reference: "AYB-005",
-
-    slug: "solar-angel-guimera",
-
-    title: "Solar en Ángel Guimerá",
-
-    city: "Las Palmas de Gran Canaria",
-
-    address: "Calle Ángel Guimerá",
-
-    type: "terreno",
-
-    operation: "sale",
-
-    featured: true,
-
-    status: "available",
-
-    price: 210000,
-    area: 150,
-
-    image: "/images/home5/home5-1.jpg",
-
-    images: [
-    "/images/home5/home5-1.jpg",
-    "/images/home5/home5-2.jpg",
-    "/images/home5/home5-3.jpg",
-    ],
-
-    description:
-  "Solar urbano de 150 m² situado en la calle Ángel Guimerá, una de las zonas con mayor proyección de Las Palmas de Gran Canaria. Ideal para construir una vivienda o desarrollar una promoción residencial en altura. Excelente conexión con el centro de la ciudad, León y Castillo, la zona Puerto y la Playa de Las Canteras. Una magnífica oportunidad para promotores e inversores.",
-  }
-
+  
 ];
