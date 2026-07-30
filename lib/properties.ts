@@ -1,54 +1,6 @@
 import type { Property } from "./types";
 
 export const properties: Property[] = [
-  {
-    id: 1,
-
-    reference: "AYB-001",
-
-    slug: "casa-la-dehesa",
-
-    title: "Casa en La Dehesa",
-
-    city: "Santa María de Guía",
-
-    address: "La Dehesa",
-
-    type: "chalet",
-
-    operation: "sale",
-
-    featured: true,
-
-    status: "available",
-
-    price: 380000,
-
-    bedrooms: 4,
-    bathrooms: 3,
-    area: 480,
-    garage: 6,
-
-    image: "/images/home1/home1-1.jpg",
-
-    images: [
-      "/images/home1/home1-1.jpg",
-      "/images/home1/home1-2.jpg",
-      "/images/home1/home1-3.jpg",
-      "/images/home1/home1-4.jpg",
-      "/images/home1/home1-5.jpg",
-      "/images/home1/home1-6.jpg",
-      "/images/home1/home1-7.jpg",
-      "/images/home1/home1-8.jpg",
-      "/images/home1/home1-9.jpg",
-      "/images/home1/home1-10.jpg",
-      "/images/home1/home1-11.jpg",
-      "/images/home1/home1-12.jpg",
-    ],
-
-    description:
-      "Espectacular casa unifamiliar situada en La Dehesa, Santa María de Guía. Dispone de un amplio garaje para seis vehículos, cuatro dormitorios, tres baños, gran cocina independiente, salón muy luminoso, azotea con vistas panorámicas, nave anexa y apartamento independiente con gran potencial de rentabilidad.",
-  },
 
  
   {
@@ -72,7 +24,7 @@ export const properties: Property[] = [
 
     status: "available",
 
-    price: 365000,
+    price: 345000,
 
     bedrooms: 3,
     bathrooms: 1,
