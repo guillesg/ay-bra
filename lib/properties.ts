@@ -72,12 +72,12 @@ export const properties: Property[] = [
     bathrooms: 0,
     area: 759,
 
-    image: "/images/home4/home4-1.jpg",
+    image: "/images/home4/home4-1.JPG",
 
     images: [
-      "/images/home4/home4-1.jpg",
-      "/images/home4/home4-2.jpg",
-      "/images/home4/home4-3.jpg",
+      "/images/home4/home4-1.JPG",
+      "/images/home4/home4-2.JPG",
+      "/images/home4/home4-3.JPG",
     ],
 
     description:
