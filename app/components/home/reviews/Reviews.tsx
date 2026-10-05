@@ -1,7 +1,7 @@
 "use client";
 
 import ReviewCard from "./ReviewCard";
-import { reviews } from "./reviews";
+import { reviews } from "./reviews-data";
 
 export default function Reviews() {
   return (

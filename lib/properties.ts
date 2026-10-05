@@ -4,7 +4,7 @@ export const properties: Property[] = [
 
  
   {
-    id: 2,
+    id: 1,
 
     reference: "AYB-003",
 
@@ -24,7 +24,7 @@ export const properties: Property[] = [
 
     status: "available",
 
-    price: 345000,
+    price: 320000,
 
     bedrooms: 3,
     bathrooms: 1,
@@ -45,45 +45,8 @@ export const properties: Property[] = [
     description:
       "Vivienda con piscina privada situada en Fagajesto, Gáldar, sobre una parcela de aproximadamente 3.400 m². Dispone de tres dormitorios, cocina equipada, salón-comedor, jardín, zona de barbacoa y aparcamiento. Ideal como residencia o inversión vacacional.",
   },
-
-{
-    id: 3,
-    reference: "AYB-005",
-
-    slug: "solar-angel-guimera",
-
-    title: "Solar en Ángel Guimerá",
-
-    city: "Las Palmas de Gran Canaria",
-
-    address: "Calle Ángel Guimerá",
-
-    type: "terreno",
-
-    operation: "sale",
-
-    featured: true,
-
-    status: "available",
-
-    price: 210000,
-    area: 150,
-
-    image: "/images/home5/home5-1.jpg",
-
-    images: [
-    "/images/home5/home5-1.jpg",
-    "/images/home5/home5-2.jpg",
-    "/images/home5/home5-3.jpg",
-    ],
-
-    description:
-  "Solar urbano de 150 m² situado en la calle Ángel Guimerá, una de las zonas con mayor proyección de Las Palmas de Gran Canaria. Ideal para construir una vivienda o desarrollar una promoción residencial en altura. Excelente conexión con el centro de la ciudad, León y Castillo, la zona Puerto y la Playa de Las Canteras. Una magnífica oportunidad para promotores e inversores.",
-  },
-
-
   {
-    id: 4,
+    id: 2,
 
     reference: "AYB-004",
 
@@ -103,7 +66,7 @@ export const properties: Property[] = [
 
     status: "available",
 
-    price: 1190000,
+    price: 1000000,
 
     bedrooms: 0,
     bathrooms: 0,

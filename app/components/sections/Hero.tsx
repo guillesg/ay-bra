@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative isolate min-h-screen overflow-hidden bg-[#111111]"
+      className="relative isolate min-h-svh overflow-hidden bg-[#111111]"
     >
       {/* ======================================== */}
       {/* Background */}
@@ -44,21 +44,23 @@ export default function Hero() {
       {/* CONTENT */}
       {/* ======================================== */}
 
-      <div className="relative z-20 flex min-h-screen items-center justify-center px-6 py-28 lg:h-screen lg:min-h-[900px] lg:px-20 lg:py-0">
+      <div className="relative z-20 flex min-h-svh items-center justify-center px-6 pb-16 pt-40 lg:px-20 lg:pb-44 lg:pt-44">
 
         <div className="mx-auto flex w-full max-w-[1700px] items-center justify-center">
 
           {/* MOBILE */}
 
-          <div className="w-full max-w-[620px] lg:hidden">
+          <div className="w-full max-w-[620px] space-y-12 lg:hidden">
 
             <HeroText />
+
+            <HeroSearch />
 
           </div>
 
           {/* DESKTOP */}
 
-          <div className="hidden w-full items-center justify-center gap-16 lg:flex">
+          <div className="hidden w-full grid-cols-2 items-center gap-10 lg:grid xl:gap-16">
 
             {/* LEFT */}
 
@@ -69,12 +71,11 @@ export default function Hero() {
             </div>
 
             {/* RIGHT */}
-{/* 
-            <div className="w-full max-w-[680px]">
+            <div className="min-w-0 w-full max-w-[680px]">
 
               <HeroSearch />
 
-            </div> */}
+            </div>
 
           </div>
 
@@ -119,23 +120,6 @@ export default function Hero() {
           }
         }
 
-        @media (max-width: 1536px) {
-          #hero {
-            min-height: 980px;
-          }
-        }
-
-        @media (max-width: 1280px) {
-          #hero {
-            min-height: 980px;
-          }
-        }
-
-        @media (max-width: 768px) {
-          #hero {
-            min-height: 100svh;
-          }
-        }
       `}</style>
     </section>
   );

@@ -308,18 +308,12 @@ export default function ContactPage() {
                   "
                 >
 
-                  <iframe
-                    title="AY&BRA Inmobiliaria"
-                    src="https://www.google.com/maps?q=Calle+Guayasen+4,+35460+G%C3%A1ldar,+Las+Palmas&output=embed"
-                    loading="lazy"
-                    allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
-                    className="
-                      h-[500px]
-                      w-full
-                      rounded-[24px]
-                    "
-                  />
+                  <div className="flex min-h-[360px] flex-col items-center justify-center gap-6 rounded-[24px] bg-[#F8F8F8] p-8 text-center sm:p-12">
+                    <h2 className="text-3xl font-semibold">Ven a conocernos</h2>
+                    <p className="text-lg leading-8 text-neutral-600">Calle Guayasén 4<br />35460 Gáldar, Las Palmas</p>
+                    <a href="https://www.google.com/maps?q=Calle+Guayasen+4,+35460+G%C3%A1ldar,+Las+Palmas" target="_blank" rel="noopener noreferrer" className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#C9A14A] px-8 py-4 font-semibold text-[#111111] transition hover:bg-[#b88f38]">Cómo llegar · Google Maps ↗</a>
+                    <p className="max-w-sm text-sm leading-6 text-neutral-500">El mapa se abre en una nueva pestaña. Google no se carga mientras navegas por esta página.</p>
+                  </div>
 
                 </div>
 

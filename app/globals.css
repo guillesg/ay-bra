@@ -1,10 +1,7 @@
 @import "tailwindcss";
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+/* Tailwind's base layer already resets spacing and box sizing.
+   Keep that reset in its layer so spacing utilities can override it. */
 
 html{
   scroll-behavior:smooth;

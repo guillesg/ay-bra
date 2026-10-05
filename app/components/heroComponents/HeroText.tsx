@@ -19,7 +19,7 @@ export default function HeroText() {
       {/* Title */}
       {/* ======================================== */}
 
-      <h1 className="mt-0 text-[52px] font-light leading-[1.12] tracking-[-0.04em] text-[#FAFAF8] sm:mt-4 sm:text-[64px] md:text-[84px] xl:mt-12 xl:max-w-[620px] xl:text-[96px]">
+      <h1 className="mt-0 text-[clamp(2.5rem,5vw,4rem)] font-light leading-[1.12] tracking-[-0.04em] text-[#FAFAF8] lg:mt-6">
         Encuentra la
 
         <br />
@@ -37,7 +37,7 @@ export default function HeroText() {
       {/* Description */}
       {/* ======================================== */}
 
-      <p className="mt-12 max-w-[560px] text-[18px] leading-[1.8] text-white/72 sm:text-[20px] xl:mt-20 xl:text-[21px] xl:leading-[1.9]">
+      <p className="mt-6 max-w-[560px] text-[18px] leading-[1.8] text-white/72 sm:text-[20px]">
         Propiedades cuidadosamente seleccionadas en Gran Canaria.
 
         <br />
@@ -50,15 +50,15 @@ export default function HeroText() {
       {/* Buttons */}
       {/* ======================================== */}
 
-      <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5 xl:mt-16">
+      <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-5">
 
         <Link
           href="/properties"
-          className="group inline-flex h-[68px] items-center justify-center gap-5 rounded-full bg-[#C9A14A] px-10 text-lg font-semibold text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_30px_80px_rgba(201,161,74,.35)] xl:h-[72px]"
+          className="group inline-flex min-h-[68px] items-center justify-center gap-4 rounded-full bg-[#C9A14A] px-6 py-3 text-center text-lg font-semibold text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_30px_80px_rgba(201,161,74,.35)] sm:px-8"
         >
           Explorar propiedades
 
-          <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white/15 transition-all duration-500 group-hover:translate-x-1 xl:h-12 xl:w-12">
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/15 transition-all duration-500 group-hover:translate-x-1">
             →
           </span>
         </Link>
@@ -76,7 +76,7 @@ export default function HeroText() {
       {/* Bottom (Solo Desktop) */}
       {/* ======================================== */}
 
-      <div className="hidden xl:flex mt-16 items-center gap-5">
+      <div className="hidden xl:flex mt-8 items-center gap-5">
         <span className="h-px w-20 bg-[#C9A14A]" />
 
         <span className="text-xs uppercase tracking-[4px] text-white/60">

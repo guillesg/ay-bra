@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LegalLinks from "./components/legal/LegalLinks";
 
 export const metadata: Metadata = {
   title: "AY&BRA Inmobiliaria",
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>{children}<div className="bg-[#242424] text-white/80"><LegalLinks /></div></body>
     </html>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import type { Review } from "./reviews";
+import type { Review } from "./reviews-data";
 
 interface ReviewCardProps {
   review: Review;

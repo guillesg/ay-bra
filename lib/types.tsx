@@ -1,3 +1,5 @@
+import type { PropertyCategory } from "./property-categories";
+
 export interface Property {
   id: number;
 
@@ -11,7 +13,7 @@ export interface Property {
 
   address: string;
 
-  type: "chalet" | "piso" | "duplex" | "local" | "terreno";
+  type: PropertyCategory;
 
   operation: "sale" | "rent";
 

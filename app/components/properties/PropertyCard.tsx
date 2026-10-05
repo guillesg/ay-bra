@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import type { Property } from "@/lib/types";
+import { getPropertyTypeLabel } from "@/lib/property-categories";
 
 interface PropertyCardProps {
   property: Property;
@@ -118,7 +119,7 @@ export default function PropertyCard({
 
                 <p className="text-sm uppercase tracking-[0.18em] text-white/70">
 
-                  {property.type}
+                  {getPropertyTypeLabel(property.type)}
 
                 </p>
 

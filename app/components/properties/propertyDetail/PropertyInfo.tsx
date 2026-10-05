@@ -1,6 +1,7 @@
 "use client";
 
 import type { Property } from "@/lib/types";
+import { getPropertyTypeLabel } from "@/lib/property-categories";
 
 interface PropertyInfoProps {
   property: Property;
@@ -188,7 +189,7 @@ export default function PropertyInfo({
 
                   <p className="text-2xl font-semibold capitalize text-[#111111]">
 
-                    {property.type}
+                    {getPropertyTypeLabel(property.type)}
 
                   </p>
 
